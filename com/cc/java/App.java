@@ -23,6 +23,11 @@ public class App {
         pollObject(queen);
         pollObject(worker);
         pollObject(drone);
+
+        //-- Das sollte eigentlich nicht gehen!--//
+        HoneyBee bee = new HoneyBee(); // SuperKlasse!
+        pollObject(bee);
+
         
     }
 
